@@ -269,7 +269,7 @@ footer .section-description {
 
 /* for mobile devices */
 @media screen and (max-width:576px) {
-    .skills-container,.resume-container{
+    .skills-container,.resume-container,footer{
         flex-direction: column;
     }
     #what-i-do-description{
@@ -278,4 +278,15 @@ footer .section-description {
     .resume-container{
         padding: 20px;
     }
+    footer{
+        padding: 20px;
+        gap:20px
+    }
+    
+.footer-column {
+    width: 100%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea {
+    width: 80%;
+}
 }
