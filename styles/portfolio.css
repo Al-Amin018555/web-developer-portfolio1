@@ -271,18 +271,30 @@ footer .section-description {
 
 /* for mobile devices */
 @media screen and (max-width:576px) {
-
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner,nav, nav>ul,
     .skills-container,
     .resume-container,
     footer,.about-info-container{
         flex-direction: column;
     }
 
+    .banner-content{
+        width: 100%;
+    }
+    nav>ul{
+        gap: 15px;
+    }
     #what-i-do-description {
         padding: 20px;
     }
 
-    .resume-container {
+    .resume-container,.banner {
         padding: 20px;
     }
 
