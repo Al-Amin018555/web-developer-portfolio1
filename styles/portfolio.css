@@ -26,7 +26,7 @@
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-   
+
 }
 
 .section-description {
@@ -70,9 +70,9 @@ nav a {
 /* header related sytles */
 .header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,top left;
+    background-position: bottom right, top left;
 }
 
 
@@ -254,39 +254,53 @@ footer .section-title {
 }
 
 footer .section-description {
-    color:#474747;
+    color: #474747;
     font-size: 16px;
     font-weight: 400;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 24px;
 }
 
-.hide{
+.hide {
     display: none;
 }
+
 /* media query */
 
 /* for mobile devices */
 @media screen and (max-width:576px) {
-    .skills-container,.resume-container,footer{
+
+    .skills-container,
+    .resume-container,
+    footer,.about-info-container{
         flex-direction: column;
     }
-    #what-i-do-description{
+
+    #what-i-do-description {
         padding: 20px;
     }
-    .resume-container{
+
+    .resume-container {
         padding: 20px;
     }
-    footer{
+
+    footer {
         padding: 20px;
-        gap:20px
+        gap: 20px
     }
-    
-.footer-column {
-    width: 100%;
-}
-.contact input[type="text"], .contact input[type="email"], textarea {
-    width: 80%;
-}
+    .about{
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 80%;
+    }
 }
