@@ -259,3 +259,18 @@ footer .section-description {
 .social-links a{
     margin-right: 24px;
 }
+
+.hide{
+    display: none;
+}
+/* media query */
+
+/* for mobile devices */
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #what-i-do-description{
+        padding: 20px;
+    }
+}
